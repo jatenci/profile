@@ -7,7 +7,7 @@
 
                 background-color:lavender;
             }
-            h1,h3 {
+            h1,h4 {
                 text-align: center;
             }
             .imgperfil{
@@ -17,26 +17,40 @@
                 margin-right: auto;
             }
             .menu {
-                background-color: lightblue;
+                background-color:lavender;
                 width: 200px;
+                height: 1900px ;
+                padding: 10px;
+                float:left;
+            }
+            .menusubone {
+                text-align: center;
             }
             .cabeceras{
                 border-style: solid;
                 border-color:black;
                 background-color: lightslategrey;
                 width: 70%;
-                margin-left: auto;
-                margin-right: auto;
+                margin-block-end: 10px;
+                margin-left: 50px;
+                margin-right: 50px;
+                text-align: center;
+                float:left;
             }
             .contenido{
                 font-size: 100%;
                 font-style: normal;
+                margin-top: 20px;
+                margin-left: 270px;
+                margin-right: 150px;
+                text-align: justify;
                 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             }
+            .subcabeceras {
+                font-weight: bold;
+            }
             .negrita{
-                font-style:oblique;
-                font-size: 130%;
-                font-family: 'Courier New', Courier, monospace;
+                font-weight: bold;
             }
         </style>
         
@@ -45,37 +59,87 @@
         <header>
             <img class="imgperfil" src="1090378233.JPG" >
             <h1>JESUS GABRIEL ATENCIO AREVALO</h1>
-            <h3>email: jatenci@gmail.com</h3>
+            <h4>email: jatenci@gmail.com</h3>
         </header>
         <div class="menu">
-            <h3 padding="50px" >Secciones</h3>
+            <h2 class="menusubone">Secciones</h2>
+            <h3>Hoja de Vida</h3>
             <ul>
                 <li><a href="#PerfilProfesional">Perfil Profesional</a></li>
                 <li><a href="#EstudiosRealizados">Estudios Realizados</a></li>
                 <li><a href="#Cursos">Cursos</a></li>
-                <li>Experiencia Laboral</li>
+                <li><a href="#ExpLaboral">Experiencia Laboral</a></li>
+            </ul>
+            <h3>Otros Links</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/gatencio" target="_blank"> Facebook</a></li>
             </ul>
         </div>
-        <div id="PerfilProfesional" class="Perfil Profesional" align-text="center">
+            <div id="PerfilProfesional">
                 <h3 class="cabeceras">PERFIL PROFESIONAL</h3>
-                <p class="contenido">Ingeniero Industrial de la Universidad de los Andes con amplio conocimiento en gestión de riesgo crediticio, 
-                análisis de datos, modelamiento estadístico y finanzas. 
-                Persona con principios de vida basados en la honestidad y la responsabilidad.
-                Profesional con excelente capacidad de aprendizaje, adaptabilidad y disciplina. 
-                Afinidad para el trabajo en grupo demostrando liderazgo e innovación.</p>   
-        </div>
+                    <p class="contenido">Ingeniero Industrial de la Universidad de los Andes con amplio conocimiento en gestión de riesgo crediticio, 
+                    análisis de datos, modelamiento estadístico y finanzas. 
+                    Persona con principios de vida basados en la honestidad y la responsabilidad.
+                    Profesional con excelente capacidad de aprendizaje, adaptabilidad y disciplina. 
+                    Afinidad para el trabajo en grupo demostrando liderazgo e innovación.</p>   
+            </div>
+        
         <div id="EstudiosRealizados" class="Estudios realizados" align-text="center">
             <h3 class="cabeceras">ESTUDIOS REALIZADOS</h3>
-            <h4 class="subcabecera">Universitarios </h4>
-            <p class="contenido">Universidad de los Andes<br>
+            <p class="contenido"><span class="subcabeceras">Universitarios</span><br>Universidad de los Andes<br>
                 Ingeniería Industrial(2004-2009)<br>
                 Bogotá
-            </p>   
+            </p>  
+            <p class="contenido"><span class="subcabeceras">Bachillerato</span><br>Colegio La Salle<br>
+                Bachiller 2003<br>
+                Cúcuta
+            </p>  
         </div>
         <div id="Cursos" class="Cursos" align-text="center">
             <h3 class="cabeceras">CURSOS</h3>
-            <p class="contenido"><span class="negrita">Advance Tasks and Querying.</span> SAS Enterprise Guide (R) 2. SAS Institute Colombia S.A. 2012.
-            </p>   
+            <p class="contenido"><span class="negrita">Advance Tasks and Querying.</span>SAS Enterprise Guide (R) 2. SAS Institute Colombia S.A. 2012.</p>
+            <p class="contenido"><span class="negrita">ANOVA, Regression, and Logistic Regression.</span>SAS Enterprise Guide I. SAS Institute Colombia S.A. 2011.</p>   
+            <p class="contenido"><span class="negrita">Manejo de herramientas ofimáticas.</span>Microsoft Excel. Curso Virtual SENA, 2010</p>   
+        </div>
+        <div id="ExpLaboral" class="ExpLaboral" align-text="center">
+            <h3 class="cabeceras">EXPERIENCIA LABORAL</h3>
+            <p class="contenido"><span class="negrita">BANCOLOMBIA</span> <br>
+                <span class="negrita">Cargo:</span>Profesional Senior de riesgo de crédito <br>
+                <span class="negrita">Periodo Laborado</span>  14 De Diciembre 2017 – Actualmente 
+            </p>
+            <p class="contenido">
+                Analista Senior de la dirección de riesgo de crédito, 
+                encargado de administrar la estrategia y las políticas de riesgo crediticio para el portafolio de créditos de consumo, 
+                hipotecario tarjetas de crédito, comercial y microcrédito de los segmentos negocios e independientes. Así mismo, 
+                encargado de liderar la célula encargada de desarrollar, validar e implementar los modelos estadísticos utilizados en 
+                el proceso de originación de créditos.         
+            </p>
+            <p class="contenido"><span class="negrita">BANCO DE BOGOTA</span> <br>
+                <span class="negrita">Cargo:</span>jefe de Originación de la Dirección de Riesgo de Crédito y Tesorería<br>
+                <span class="negrita">Periodo Laborado</span>  6 De Febrero 2015 – 14 De Diciembre 2017 
+            </p>
+            <p class="contenido">
+                Jefe de sección de la dirección de Riesgo de Crédito y Tesorería, encargado de administrar el portafolio de productos de consumo, 
+                microcrédito y productos hipotecarios desde la perspectiva de riesgo crediticio, realizando seguimiento y análisis de indicadores a 
+                través de reportes especializados. Encargado de administrar las políticas y estrategias de originación de créditos y de parametrizar 
+                los motores de decisión de los BPM’s        
+            </p>
+            <p class="contenido"><span class="negrita">EXPERIAN</span> <br>
+                <span class="negrita">Cargo:</span>Profesional Senior de Decision Analitycs<br>
+                <span class="negrita">Periodo Laborado</span>  21 De Octubre 2013 – 5 De Febrero 2015 
+            </p>
+            <p class="contenido">
+                Analista senior de la gerencia de Analitycs encargado principalmente del desarrollo de modelos genéricos de originación y cobranza para el
+                sector financiero. Encargado de generar informes de seguimiento en todas las etapas del ciclo de crédito para las entidades financieras.        
+            </p>
+            <p class="contenido"><span class="negrita">BANCO DE BOGOTA</span> <br>
+                <span class="negrita">Cargo:</span>Analista de la Dirección de Riesgo de crédito y Tesorería<br>
+                <span class="negrita">Periodo Laborado</span>26 De Octubre 2010 – 21 de Octubre de 2013 
+            </p>
+            <p class="contenido">
+                Analista de riesgo de la gerencia de consumo, encargado de generar informes de seguimiento, estrategias de aprobación y 
+                parametrización de motores de aprobación de la cartera de consumo, microcrédito, hipotecario y vehículo.
+            </p>
         </div>
     </body>
 </html>
