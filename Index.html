@@ -16,6 +16,28 @@
                 margin-left: auto;
                 margin-right: auto;
             }
+            .menu {
+                background-color: lightblue;
+                width: 200px;
+            }
+            .cabeceras{
+                border-style: solid;
+                border-color:black;
+                background-color: lightslategrey;
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .contenido{
+                font-size: 100%;
+                font-style: normal;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            .negrita{
+                font-style:oblique;
+                font-size: 130%;
+                font-family: 'Courier New', Courier, monospace;
+            }
         </style>
         
     </head>
@@ -23,8 +45,37 @@
         <header>
             <img class="imgperfil" src="1090378233.JPG" >
             <h1>JESUS GABRIEL ATENCIO AREVALO</h1>
-            <h3>Ingeniero Industrial</h3>
+            <h3>email: jatenci@gmail.com</h3>
         </header>
-        
+        <div class="menu">
+            <h3 padding="50px" >Secciones</h3>
+            <ul>
+                <li><a href="#PerfilProfesional">Perfil Profesional</a></li>
+                <li><a href="#EstudiosRealizados">Estudios Realizados</a></li>
+                <li><a href="#Cursos">Cursos</a></li>
+                <li>Experiencia Laboral</li>
+            </ul>
+        </div>
+        <div id="PerfilProfesional" class="Perfil Profesional" align-text="center">
+                <h3 class="cabeceras">PERFIL PROFESIONAL</h3>
+                <p class="contenido">Ingeniero Industrial de la Universidad de los Andes con amplio conocimiento en gestión de riesgo crediticio, 
+                análisis de datos, modelamiento estadístico y finanzas. 
+                Persona con principios de vida basados en la honestidad y la responsabilidad.
+                Profesional con excelente capacidad de aprendizaje, adaptabilidad y disciplina. 
+                Afinidad para el trabajo en grupo demostrando liderazgo e innovación.</p>   
+        </div>
+        <div id="EstudiosRealizados" class="Estudios realizados" align-text="center">
+            <h3 class="cabeceras">ESTUDIOS REALIZADOS</h3>
+            <h4 class="subcabecera">Universitarios </h4>
+            <p class="contenido">Universidad de los Andes<br>
+                Ingeniería Industrial(2004-2009)<br>
+                Bogotá
+            </p>   
+        </div>
+        <div id="Cursos" class="Cursos" align-text="center">
+            <h3 class="cabeceras">CURSOS</h3>
+            <p class="contenido"><span class="negrita">Advance Tasks and Querying.</span> SAS Enterprise Guide (R) 2. SAS Institute Colombia S.A. 2012.
+            </p>   
+        </div>
     </body>
 </html>
